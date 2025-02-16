@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Bumbbled";
+    src: url("./assets/Bumbbled.otf") format("opentype");
+  }
