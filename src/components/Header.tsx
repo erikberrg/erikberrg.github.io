@@ -15,8 +15,8 @@ export default function Header() {
                 <ul className="flex w-full justify-center">
                     {[
                         { href: "#projects", content: "Projects", offset: 900 },
-                        { href: "#about", content: "About", offset: 2400 },
-                        { href: "#contact", content: "Contact", offset: 2700 },
+                        { href: "#about", content: "About", offset: 3700 },
+                        { href: "#contact", content: "Contact", offset: 4000 },
                     ].map((item, index) => (
                         <li key={index} className="w-fit">
                             <a 

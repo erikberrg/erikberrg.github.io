@@ -6,6 +6,8 @@ import ebPhoto from "../assets/logo.svg";
 import { ArrowRight } from "iconoir-react";
 import eb6 from "../assets/Stock photos - pexels.com-5.png";
 import track from "../assets/Shot-4.png";
+import shot from "../assets/shot-5.png";
+import verba from "../assets/Verba.png";
 import { motion, Variants } from "framer-motion";
 
 // Reusable ProjectCard component
@@ -98,7 +100,16 @@ export default function Projects() {
           icon={tpIcon}
           description="Track Pacer is a pacer system that allows runners to track their running progress. Users can create a preset, and the light ring around the track will send a pacer light at whatever time and speed the user chooses.  I created the app in React Native and the hardware using the Arduino IDE."
           image3={track}
-          link="https://github.com/erikberrg/track-pacer"
+          link="https://github.com/erikberrg/tp-prod"
+          imageAlt="Track Mockup"
+        />
+        {/* ProjectCard for Verba */}
+        <ProjectCard
+          title="Verba"
+          icon={verba}
+          description="Verba is a vocabulary app that helps users learn and apply new words to their daily lives."
+          image3={shot}
+          link="https://github.com/erikberrg/verba"
           imageAlt="Track Mockup"
         />
         {/* ProjectCard for EB Photography */}

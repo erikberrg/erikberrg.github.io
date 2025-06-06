@@ -19,7 +19,7 @@ export default function About() {
                             <p className="md:text-xl text-md text-zinc-500 font-extralight tracking-wide">I am currently pursuing a Bachelor of Science in Computer Information Systems at the University of Wisconsin Stevens Point, where I also played varsity tennis.  My experience playing on a team has equipped me with a solid foundation in teamwork, discipline, and being a part of something bigger than myself.  I am driven by a passion for innovation and creativity, always striving to push boundaries and learn as much as possible.</p>
                             <p className="md:text-xl invisible md:visible text-zinc-500 font-extralight tracking-wide">I have experience in React Native, React, Next.js, Vite, R, C++, Java, Javascript/Typescript, Tailwind, HTML, CSS, Adobe Suite, Affinity Suite, Microsoft Suite and much more.  Below is a link to my resume if you would like to know more.</p>
                         </div>
-                        <a href={resume} download rel="Resume" className="flex flex-row items-center justify-between gap-2 text-base text-black bg-zinc-200 rounded-full w-fit px-4 py-2 font-regular tracking-wide hover:bg-zinc-800 hover:text-white transition-all invisible md:visible">Resume<ArrowRight height={24} strokeWidth={2}/></a>
+                        <a href={resume} download rel="Resume" className="flex flex-row items-center justify-between gap-2 text-base text-black bg-zinc-200 rounded-full w-fit px-4 py-2 font-regular tracking-wide hover:bg-zinc-800 hover:text-white invisible md:visible">Resume<ArrowRight height={24} strokeWidth={2}/></a>
                     </div>
                 </div>
             </div>
